@@ -1,7 +1,5 @@
 # Summary Introduction to Algorithm
 
-### Apa itu Algorithm?
-
 ![Screenshot (1910)](https://github.com/putridia/de_putri-dia-lestari/assets/120665019/41b05ab5-8d16-4490-89a2-477469e47a00)
 
 **Algoritma** adalah sebuah prosedur komputasi yang didefinisikan dengan baik yang mengambil beberapa nilai sebagai nilai input dan menghasilkan beberapa nilai sebagai output. **Prosedur Komputasi** yang dimaksud adalah interupsi kepada komputer agar komputer dapat memahami apa yang kita inginkan
