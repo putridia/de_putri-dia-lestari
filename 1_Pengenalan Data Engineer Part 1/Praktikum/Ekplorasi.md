@@ -3,4 +3,4 @@
 2. Diagram Sederhana berdasarkan kasus Platform E-Commerce :
    ![Screenshot 2024-02-25 070032](https://github.com/putridia/de_putri-dia-lestari/assets/120665019/441e742c-1765-4cbc-b960-615c09165b0e)
 
-Sumber referensi : https://one.alterra.academy/courses/data-engineer/lessons/pengenalan-data-engineer-part-1/topic/video-de-pengenalan-data-engineer-2/
+Sumber referensi : [Referensi Web One Alta](https://one.alterra.academy/courses/data-engineer/lessons/pengenalan-data-engineer-part-1/topic/video-de-pengenalan-data-engineer-2/)
