@@ -26,7 +26,7 @@ class Pelanggan:
         return self.__ID_Pelanggan
     
     # Menampilkan Informasi Data Pelanggan
-    def infoPelanggan(self):
+    def tampilkanInfo(self):
         print("Nama:", self.__nama)
         print("Usia:", self.__usia)
         print("ID Pelanggan:", self.__ID_Pelanggan)
@@ -59,7 +59,7 @@ class Pelatih:
         return self.__tahunPengalaman
     
     # Menampilkan Informasi Data Pelatih
-    def infoPelatih(self):
+    def tampilkanInfo(self):
         print("Nama Pelatih:", self.__namaPelatih)
         print("Spesialis:", self.__spesialis)
         print("Tahun Pengalaman:", self.__tahunPengalaman)
@@ -86,10 +86,10 @@ class KelasLatihan(Pelatih):
         return self.__jadwal
     
     # Menampilkan Informasi Data Kelas Latihan
-    def infoKelasLatihan(self):
-        super().infoPelatih()
+    def tampilkanInfo(self):
+        super().tampilkanInfo()
         print("Jenis Latihan:", self.getJenisLatihan())
-        print("Jadwal:", self.getjadwal())
+        print("Jadwal:", self.getjadwal()) 
 
 # Membuat Object Pelanggan
 Pelanggan1 = Pelanggan("Jose", 20, "P001")
@@ -104,17 +104,17 @@ KelasLatihan1 = KelasLatihan("Dhani", "Lari", 5, "Marathon", "Senin, Rabu, Jumat
 print("========================")
 print("Informasi Pelanggan")
 print("========================")
-Pelanggan1.infoPelanggan()
+Pelanggan1.tampilkanInfo()
 print("========================\n")
 
 print("========================")
 print("Informasi Pelatih")
 print("========================")
-Pelatih1.infoPelatih()
+Pelatih1.tampilkanInfo()
 print("========================\n")
 
 print("========================")
 print("Informasi Kelas Latihan")
 print("========================")
-KelasLatihan1.infoKelasLatihan()
+KelasLatihan1.tampilkanInfo()
 print("========================")
