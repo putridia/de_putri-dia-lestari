@@ -113,10 +113,10 @@ if __name__ == "__main__":
         elif menu == "2":
             submenu = input("Pilih jenis kelas (1. Yoga, 2. Angkat Beban): ")
             if submenu == "1":
-                print("\nPembatalan kelas Yoga:")
+                print("\nPembatalan kelas Yoga?")
                 yoga_kelas.batalkanKelas()
             elif submenu == "2":
-                print("\nPembatalan kelas AngkatBeban:")
+                print("\nPembatalan kelas AngkatBeban?")
                 angkat_beban_kelas.batalkanKelas()
             else:
                 print("Opsi tidak valid.")
