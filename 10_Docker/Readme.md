@@ -50,117 +50,115 @@ CMD [ "npm", "start" ]
 
 ## Docker Basic Commands
 1. Docker ps: Menampilkan daftar kontainer yang sedang berjalan. -a digunakan Menampilkan semua kontainer (termasuk yang berhenti).
-
-Contoh : 
-```bash
-docker ps
-docker ps -a
-```
+   Contoh :
+   ```bash
+   docker ps
+   docker ps -a
+   ```
 
 2. Docker Container Create: Membuat Container baru
-
-Contoh :
-```bash
-docker container create -it --name redis1 redis:latest
-```
+   Contoh :
+   ```bash
+   docker container create -it --name redis1 redis:latest
+   ```
 
 3. Docker Container start: Menjalankan container
 
-Contoh:
-```bash
-docker container start redis1
-```
+   Contoh:
+   ```bash
+   docker container start redis1
+   ```
 
 4. Docker Container stop: menghentikan container
 
-Contoh:
-```bash
-docker container stop redis1
-```
+   Contoh:
+   ```bash
+   docker container stop redis1
+   ```
 
 5. Docker Container rm: menghapus container dalam kondisi harus mati.
 
-Contoh:
-```bash
-docker container rm redis1
-```
+   Contoh:
+   ```bash
+   docker container rm redis1
+   ```
 
 6. Docker Container rm -f: Menghapus container meskipun masih running
 
-Contoh:
-```bash
-docker container rm -f redis2
-```
+   Contoh:
+   ```bash
+   docker container rm -f redis2
+   ```
 
 7. Melihat Semua Container yang Sedang Running
 
-Contoh:
-```bash
-docker container ls docker ps
-```
+   Contoh:
+   ```bash
+   docker container ls docker ps
+   ```
 
 8. Melihat semua container (running maupun mati)
 
-Contoh:
-```bash
-docker container ls -a docker ps -a
-```
+  Contoh:
+  ```bash
+  docker container ls -a docker ps -a
+  ```
 
 9. Melihat semua docker image dalam local
 
-Contoh:
-```bash
-docker image
-```
+   Contoh:
+   ```bash
+   docker image
+   ```
 
 10. Docker pull: Mengunduh docker image
 
-Contoh:
-```bash
-docker pull redis:latest
-```
+   Contoh:
+   ```bash
+   docker pull redis:latest
+   ```
 
 11. Docker push: Mempublish docker image ke docker hub
 
-Contoh:
-```bash
-docker push myimage: 1.0.0
-```
+   Contoh:
+   ```bash
+   docker push myimage: 1.0.0
+   ```
 
 12. Docker run: Membuat dan menjalankan container
 
-Contoh:
-```bash
-docker run -itd-name redis-app redis: latest
-```
+   Contoh:
+   ```bash
+   docker run -itd-name redis-app redis: latest
+   ```
 
 13. Docker exec: Menjalankan command di dalam container
 
-Contoh:
-```bash
-docker exec-it redis-app redis-cli
-```
+   Contoh:
+   ```bash
+   docker exec-it redis-app redis-cli
+   ```
 
 14. Docker logs: Melihat log dari container
 
-Contoh: 
-```bash
-docker logs redis-app
-```
+   Contoh: 
+   ```bash
+   docker logs redis-app
+   ```
 
 15. Docker inspect: Melihat informasi secora rinci mengenai container
 
-Contoh:
-```bash
-docker inspect redis-app
-```
+   Contoh:
+   ```bash
+   docker inspect redis-app
+   ```
 
 16. Docker volume create: Membuat docker volume baru
 
-Contoh:
-```bash
-docker volume create myvolume
-```
+   Contoh:
+   ```bash
+   docker volume create myvolume
+   ```
 
 17. Docker volume 1s: Menampilkan semua docker volume
 
@@ -168,24 +166,24 @@ docker volume create myvolume
 
 19. Docker network create: Membuat docker network baru.
 
-Contoh:
-```bash
-docker network create mynetwork
-```
+   Contoh:
+   ```bash
+   docker network create mynetwork
+   ```
 
 20. Docker network connect: Membuat docker network baru
 
-Contoh:
-```bash
-docker network create mynetwork
-```
+   Contoh:
+   ```bash
+   docker network create mynetwork
+   ```
 
 21. Docker network connect: Menyambungkan docker network kepada container yang sedang running maupun yang mati
 
-Contoh:
-```bash
-docker network connect mynetwork myapi
-```
+   Contoh:
+   ```bash
+   docker network connect mynetwork myapi
+   ```
 
 ## Docker Volume
 
