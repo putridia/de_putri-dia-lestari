@@ -99,10 +99,10 @@ CMD [ "npm", "start" ]
 
 8. Melihat semua container (running maupun mati)
 
-  Contoh:
-  ```bash
-  docker container ls -a docker ps -a
-  ```
+   Contoh:
+   ```bash
+   docker container ls -a docker ps -a
+   ```
 
 9. Melihat semua docker image dalam local
 
@@ -113,52 +113,52 @@ CMD [ "npm", "start" ]
 
 10. Docker pull: Mengunduh docker image
 
-   Contoh:
-   ```bash
-   docker pull redis:latest
-   ```
+    Contoh:
+    ```bash
+    docker pull redis:latest
+    ```
 
 11. Docker push: Mempublish docker image ke docker hub
 
-   Contoh:
-   ```bash
-   docker push myimage: 1.0.0
-   ```
+    Contoh:
+    ```bash
+    docker push myimage: 1.0.0
+    ```
 
 12. Docker run: Membuat dan menjalankan container
 
-   Contoh:
-   ```bash
-   docker run -itd-name redis-app redis: latest
-   ```
+    Contoh:
+    ```bash
+    docker run -itd-name redis-app redis: latest
+    ```
 
 13. Docker exec: Menjalankan command di dalam container
 
-   Contoh:
-   ```bash
-   docker exec-it redis-app redis-cli
-   ```
+    Contoh:
+    ```bash
+    docker exec-it redis-app redis-cli
+    ```
 
 14. Docker logs: Melihat log dari container
 
-   Contoh: 
-   ```bash
-   docker logs redis-app
-   ```
+    Contoh: 
+    ```bash
+    docker logs redis-app
+    ```
 
 15. Docker inspect: Melihat informasi secora rinci mengenai container
 
-   Contoh:
-   ```bash
-   docker inspect redis-app
-   ```
+    Contoh:
+    ```bash
+    docker inspect redis-app
+    ```
 
 16. Docker volume create: Membuat docker volume baru
 
-   Contoh:
-   ```bash
-   docker volume create myvolume
-   ```
+    Contoh:
+    ```bash
+    docker volume create myvolume
+    ```
 
 17. Docker volume 1s: Menampilkan semua docker volume
 
@@ -166,24 +166,24 @@ CMD [ "npm", "start" ]
 
 19. Docker network create: Membuat docker network baru.
 
-   Contoh:
-   ```bash
-   docker network create mynetwork
-   ```
+    Contoh:
+    ```bash
+    docker network create mynetwork
+    ```
 
 20. Docker network connect: Membuat docker network baru
 
-   Contoh:
-   ```bash
-   docker network create mynetwork
-   ```
+    Contoh:
+    ```bash
+    docker network create mynetwork
+    ```
 
 21. Docker network connect: Menyambungkan docker network kepada container yang sedang running maupun yang mati
 
-   Contoh:
-   ```bash
-   docker network connect mynetwork myapi
-   ```
+    Contoh:
+    ```bash
+    docker network connect mynetwork myapi
+    ```
 
 ## Docker Volume
 
