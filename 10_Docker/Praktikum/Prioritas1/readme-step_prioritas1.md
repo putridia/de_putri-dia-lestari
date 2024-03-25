@@ -1,6 +1,7 @@
 # Step Soal Prioritas 1
 ### 1. Lakukan containerization pada aplikasi Python dengan kriteria berikut:
 a. Jenis aplikasi yang dipilih bebas asalkan dikembangkan dengan Python.
+
 b. Menggunakan Docker sebagai containerization.
 
 ![Screenshot (1978)](https://github.com/putridia/de_putri-dia-lestari/assets/120665019/fc6cd4ae-0a2d-401e-b72d-0a75a3e24d79)
