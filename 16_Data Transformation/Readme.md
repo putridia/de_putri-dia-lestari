@@ -7,15 +7,15 @@ Kenapa Data Transformation Penting?
 
 1. Memungkinkan data dari berbagai sumber untuk digabungkan.
 
-Hal ini memungkinkan untuk melihat gambaran yang lebih lengkap tentang suatu situasi. Misalnya, jika ingin mencoba melacak tren penjualan, mungkin ingin menggabungkan data dari sistem POS, situs web e-niaga, dan CRM Anda. Hal ini akan memberikan pemahaman yang lebih baik tentang bagaimana kinerja bisnis secara keseluruhan.
+   Hal ini memungkinkan untuk melihat gambaran yang lebih lengkap tentang suatu situasi. Misalnya, jika ingin mencoba melacak tren penjualan, mungkin ingin menggabungkan data dari sistem POS, situs web e-niaga, dan CRM Anda. Hal ini akan memberikan pemahaman yang lebih baik tentang bagaimana kinerja bisnis secara keseluruhan.
 
 2. Memastikan kualitas dan konsistensi data.
 
-Ketika ingin menggabungkan data dari berbagai sumber, dapat juga mengidentifikasi dan memperbaiki inkonsistensi. Ini akan membantu untuk memastikan bahwa data tersebut akurat dan dapat dipercaya.
+   Ketika ingin menggabungkan data dari berbagai sumber, dapat juga mengidentifikasi dan memperbaiki inkonsistensi. Ini akan membantu untuk memastikan bahwa data tersebut akurat dan dapat dipercaya.
 
 3. Memudahkan analisis data dan intelijen bisnis.
 
-Ketika data yang terpusat di satu tempat, dapat dengan mudah menganalisisnya dan mendapatkan wawasan yang berharga. Hal ini dapat membantu untuk membuat keputusan yang lebih baik tentang bisnis.
+   Ketika data yang terpusat di satu tempat, dapat dengan mudah menganalisisnya dan mendapatkan wawasan yang berharga. Hal ini dapat membantu untuk membuat keputusan yang lebih baik tentang bisnis.
 
 ### Jenis Data Transformation
 
@@ -45,19 +45,19 @@ Encoding data kategori adalah proses mengubah data kategori menjadi format numer
 
 - Tujuan: Memberikan gambaran ringkasan data, sering kali untuk mengubah rinciannya.
 
-- Metode Umum: 
-- Sum
-- Average
-- Count: Jumlah total titik data.
-- Maks: Nilai tertinggi dalam kumpulan data.
-- Min: Nilai terendah dalam kumpulan data.
+- Metode Umum:
+  - Sum
+  - Average
+  - Count: Jumlah total titik data.
+  - Maks: Nilai tertinggi dalam kumpulan data.
+  - Min: Nilai terendah dalam kumpulan data.
 
 - Kasus Penggunaan: Data deret waktu, analisis berbasis grup.
 
-Tantangan dalam data transformtion :
+### Tantangan dalam data transformtion :
 
 Mengatasi data yang hilang, nilai yang hilang bisa terjadi karena kesalahan entry data, data sengaja tidak dikumpulkan / data corrupt. Metode : deletion (menghapus baris dengan nilai yang hilang), implutation (mengisi nilai yang hilang dengan data point lain, bisa dilakukan dengan melaukan rata2 dari 2 data point), forward/backward fill (mengisi nilai yang hilang dengan nilai sebelumnya).
 
-Menangani outliers Outliers merupakan nilai yang sangat berbeda dari kebanyakan nilai dalam dataset, dapat mempengaruhi hasil analisis. Metode : Z-Score , IQR (Interquartile Range)
+- Menangani outliers Outliers merupakan nilai yang sangat berbeda dari kebanyakan nilai dalam dataset, dapat mempengaruhi hasil analisis. Metode : Z-Score , IQR (Interquartile Range)
 
-Memastikan integrasi data selama proses penyimpanan /transfer. Metode : regular backups, validation checks, checksums.
+- Memastikan integrasi data selama proses penyimpanan /transfer. Metode : regular backups, validation checks, checksums.
