@@ -8,14 +8,13 @@
 Sekumpulan data dengan jumlah yang sangat besar yang bisa mencapai hingga exabytes.
 
 ## Contoh Sumber Big Data:
-- Kueri pencarian : - Mesin pencari seperti Google, Bing, dan Yahoo mengumpulkan data yang sangat besar dari kueri pengguna. Data ini, yang mencakup tren pencarian, preferensi pengguna, dan banyak lagi, dapat digunakan untuk berbagai tujuan.
+- Kueri pencarian : Mesin pencari seperti Google, Bing, dan Yahoo mengumpulkan data yang sangat besar dari kueri pengguna. Data ini, yang mencakup tren pencarian, preferensi pengguna, dan banyak lagi, dapat digunakan untuk berbagai tujuan.
 
-Aktivitas user : menghasilkan data berharga tentang perilaku dan preferensi mereka melalui interaksi dengan platform online seperti media sosial, e-commerce, aplikasi seluler, dan lain-lain. Data ini mencakup klik, like, share, komentar, dan interaksi lainnya.
+- Aktivitas user : menghasilkan data berharga tentang perilaku dan preferensi mereka melalui interaksi dengan platform online seperti media sosial, e-commerce, aplikasi seluler, dan lain-lain. Data ini mencakup klik, like, share, komentar, dan interaksi lainnya.
 
-Jumlah video di platform online : sumber daya yang berharga yang dapat digunakan untuk berbagai tujuan.
+- Jumlah video di platform online : sumber daya yang berharga yang dapat digunakan untuk berbagai tujuan.
 
-Transaksi online : Ringkasan Transaksi Online
-Transaksi online menghasilkan informasi berharga tentang aktivitas pembelian, pembayaran, dan transfer uang yang dilakukan secara digital. Data ini, yang meliputi detail transaksi, identitas pelanggan, nilai transaksi, dan waktu kejadian, dapat dianalisis.
+- Transaksi online : Transaksi online menghasilkan informasi berharga tentang aktivitas pembelian, pembayaran, dan transfer uang yang dilakukan secara digital. Data ini, yang meliputi detail transaksi, identitas pelanggan, nilai transaksi, dan waktu kejadian, dapat dianalisis.
 
 ## Karakteristik Big Data (5V)
 - Volume 
