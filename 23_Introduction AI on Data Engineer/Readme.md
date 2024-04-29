@@ -27,16 +27,24 @@ tugas dalam skala besar.
 menggunakan algoritme kompleks dan jaringan saraf dalam untuk melatih model. 
 
 ## Teknologi penggerak AI
-- Data 
-Data yang tersedia dalam jumlah besar, berkat adanya internet, sosial media dan perangkat mobile
-- Algoritma 
-Penemuan-penemuan algoritma baru, kemajuan pada model neural networks dan deep learning serta kemunculan framework dan libraries yang berhubungan dengan data science.
-- Perangkat keras 
-Kemajuan teknologi perangkat keras, terutama GPU & TPU, meningkatkan kemampuan komputasi.
+- Data
+  
+  Data yang tersedia dalam jumlah besar, berkat adanya internet, sosial media dan perangkat mobile
+  
+- Algoritma
+
+  Penemuan-penemuan algoritma baru, kemajuan pada model neural networks dan deep learning serta kemunculan framework dan libraries yang berhubungan dengan data science.
+- Perangkat keras
+
+  Kemajuan teknologi perangkat keras, terutama GPU & TPU, meningkatkan kemampuan komputasi.
+  
 - Cloud Computing
-Akses untuk menggunakan teknologi pendukung AI sudah lebih mudah dengan harga yang terjangkau. Tidak perlu lagi membeli teknologi pendukung atau merekrut tenaga ahli dengan harga mahal.
-- Investasi dan pendanaan 
-Perusahaan modal ventura, perusahaan teknologi, bahkan pemerintahan di penjuru dunia mulai berinvestasi besar-besaran di bidang AI.
+  
+  Akses untuk menggunakan teknologi pendukung AI sudah lebih mudah dengan harga yang terjangkau. Tidak perlu lagi membeli teknologi pendukung atau merekrut tenaga ahli dengan harga mahal.
+  
+- Investasi dan pendanaan
+
+  Perusahaan modal ventura, perusahaan teknologi, bahkan pemerintahan di penjuru dunia mulai berinvestasi besar-besaran di bidang AI.
 
 ## Implementasi AI
 
@@ -46,10 +54,17 @@ Perusahaan modal ventura, perusahaan teknologi, bahkan pemerintahan di penjuru d
 
 ## 4 Etika dalam Penggunaan/Pengembangan AI
 - Fairness
-Fairness atau keadilan mengacu pada prinsip bahwa sistem AI harus memperlakukan semua individu dengan adil, tanpa memihak atau diskriminatif terhadap kelompok tertentu.
+
+  Fairness atau keadilan mengacu pada prinsip bahwa sistem AI harus memperlakukan semua individu dengan adil, tanpa memihak atau diskriminatif terhadap kelompok tertentu.
+  
 - Transparansi
-Transparansi berarti bahwa proses dan keputusan yang dibuat oleh sistem AI harus dapat dipahami dan dijelaskan oleh manusia. 
+
+  Transparansi berarti bahwa proses dan keputusan yang dibuat oleh sistem AI harus dapat dipahami dan dijelaskan oleh manusia.
+  
 - Privasi
-Privasi merupakan aspek penting dalam penggunaan dan pengembangan AI yang menjamin bahwa data pribadi individu dilindungi dan tidak disalahgunakan oleh sistem AI.
+
+  Privasi merupakan aspek penting dalam penggunaan dan pengembangan AI yang menjamin bahwa data pribadi individu dilindungi dan tidak disalahgunakan oleh sistem AI.
+  
 - Human Centeredness
-Prinsip human centeredness menekankan pentingnya menjadikan manusia sebagai fokus utama dalam penggunaan dan pengembangan AI. Hal ini berarti bahwa sistem AI harus dirancang dan diimplementasikan dengan memperhatikan kebutuhan, nilai, dan kesejahteraan manusia.
+
+  Prinsip human centeredness menekankan pentingnya menjadikan manusia sebagai fokus utama dalam penggunaan dan pengembangan AI. Hal ini berarti bahwa sistem AI harus dirancang dan diimplementasikan dengan memperhatikan kebutuhan, nilai, dan kesejahteraan manusia.
