@@ -1,0 +1,41 @@
+INPUT :
+
+- System Intructions :
+    Given the following SQL tables representing a library database:
+
+    CREATE TABLE Books (
+    BookID int,
+    Title varchar(100),
+    Author varchar(100),
+    Genre varchar(50),
+    ISBN varchar(20),
+    PRIMARY KEY (BookID)
+    );
+
+    CREATE TABLE Loans (
+    LoanID int,
+    BookID int,
+    CustomerID int,
+    LoanDate datetime,
+    DueDate datetime,
+    ReturnedDate datetime,
+    PRIMARY KEY (LoanID),
+    FOREIGN KEY (BookID) REFERENCES Books(BookID)
+    );
+
+    CREATE TABLE Customers (
+    CustomerID int,
+    FirstName varchar(50),
+    LastName varchar(50),
+    Email varchar(100),
+    Phone varchar(20),
+    PRIMARY KEY (CustomerID)
+    );
+
+- User chat: Write a SQL query to find the average number of books borrowed by each customer.
+
+OUTPUT :
+SELECT c.CustomerID, c.FirstName, c.LastName, AVG(l.BookID) AS AverageBooksBorrowed
+FROM Customers c
+LEFT JOIN Loans l ON c.CustomerID = l.CustomerID
+GROUP BY c.CustomerID, c.FirstName, c.LastName;
