@@ -1,0 +1,52 @@
+Tanggal,Jenis Buku,Judul Buku,Harga (IDR),Jumlah Terjual
+2024-05-01,Fiksi,The Great Gatsby,150000,10
+2024-05-02,Non-Fiksi,Thinking Fast and Slow,200000,8
+2024-05-03,Fiksi,To Kill a Mockingbird,120000,12
+2024-05-04,Referensi,Python Programming for Beginners,180000,15
+2024-05-05,Non-Fiksi,Sapiens: A Brief History of Humankind,220000,6
+2024-05-06,Fiksi,Harry Potter and the Sorcerer's Stone,140000,20
+2024-05-07,Referensi,Introduction to Machine Learning,250000,10
+2024-05-08,Non-Fiksi,The Power of Habit,170000,7
+2024-05-09,Fiksi,1984,160000,9
+2024-05-10,Referensi,Data Science for Beginners,190000,11
+2024-05-11,Fiksi,The Catcher in the Rye,130000,14
+2024-05-12,Non-Fiksi,Outliers: The Story of Success,210000,8
+2024-05-13,Fiksi,Animal Farm,110000,16
+2024-05-14,Referensi,Deep Learning for Computer Vision,240000,9
+2024-05-15,Non-Fiksi,Atomic Habits,230000,5
+2024-05-16,Fiksi,Pride and Prejudice,170000,12
+2024-05-17,Referensi,Statistical Learning from Scratch,200000,11
+2024-05-18,Non-Fiksi,The Subtle Art of Not Giving a F*ck,190000,7
+2024-05-19,Fiksi,Brave New World,140000,13
+2024-05-20,Referensi,Introduction to Data Science,220000,10
+2024-05-21,Non-Fiksi,Start with Why,160000,9
+2024-05-22,Fiksi,The Hobbit,180000,11
+2024-05-23,Referensi,Machine Learning Yearning,250000,8
+2024-05-24,Non-Fiksi,The 7 Habits of Highly Effective People,200000,6
+2024-05-25,Fiksi,The Lord of the Rings,260000,15
+2024-05-26,Referensi,Practical Statistics for Data Scientists,230000,12
+2024-05-27,Non-Fiksi,How to Win Friends and Influence People,170000,8
+2024-05-28,Fiksi,Fahrenheit 451,190000,10
+2024-05-29,Referensi,Python for Data Analysis,210000,9
+2024-05-30,Non-Fiksi,Thinking Fast and Slow,220000,7
+2024-05-31,Fiksi,The Alchemist,150000,14
+2024-06-01,Referensi,An Introduction to Statistical Learning,240000,11
+2024-06-02,Non-Fiksi,Blink: The Power of Thinking Without Thinking,180000,8
+2024-06-03,Fiksi,The Picture of Dorian Gray,160000,12
+2024-06-04,Referensi,Hands-On Machine Learning with Scikit-Learn TensorFlow and Keras,270000,9
+2024-06-05,Non-Fiksi,Educated: A Memoir,190000,6
+2024-06-06,Fiksi,The Road,200000,10
+2024-06-07,Referensi,Data Science for Business,220000,11
+2024-06-08,Non-Fiksi,The Tipping Point: How Little Things Can Make a Big Difference,170000,7
+2024-06-09,Fiksi,The Shining,140000,15
+2024-06-10,Referensi,Pattern Recognition and Machine Learning,250000,8
+2024-06-11,Non-Fiksi,The Four Agreements: A Practical Guide to Personal Freedom,160000,9
+2024-06-12,Fiksi,The Road Less Traveled,180000,11
+2024-06-13,Referensi,Python Machine Learning,210000,12
+2024-06-14,Non-Fiksi,Man's Search for Meaning,150000,7
+2024-06-15,Fiksi,The Hitchhiker's Guide to the Galaxy,170000,10
+2024-06-16,Referensi,Deep Learning,240000,11
+2024-06-17,Non-Fiksi,The Lean Startup,190000,8
+2024-06-18,Fiksi,The Da Vinci Code,200000,12
+2024-06-19,Referensi,Data Mining: Practical Machine Learning Tools and Techniques,260000,9
+2024-06-20,Non-Fiksi,Influence: The Psychology of Persuasion,180000,6
