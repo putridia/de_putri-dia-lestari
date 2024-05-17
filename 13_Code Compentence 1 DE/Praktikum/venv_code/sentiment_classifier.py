@@ -1,11 +1,10 @@
 import pandas as pd
 import os
 
-
 sentiment_csv = None
-classified_data = None
+classified = None
 
-def load_sentiment_csv():
+def load_sentiment():
     global sentiment_csv
     try:
         current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -14,25 +13,26 @@ def load_sentiment_csv():
         print("Dataset loaded successfully.")
     except Exception as e:
         print("Error loading sentiment CSV:", str(e))
+        return None
 
 def classify_sentiment():
-    global classified_data
+    global classified
     if sentiment_csv is None:
         print("Error: Dataset is not loaded.")
         return
-    classified_data = sentiment_csv.groupby('labels')
+    classified = sentiment_csv.groupby('labels')
 
 
-def save_to_csv():
+def save_csv():
     global sentiment_csv
-    global classified_data
-    for label, group in classified_data:
+    global classified
+    for label, group in classified:
         file_name = f"13_Code Compentence 1 DE/Praktikum/sentiment_{label}.csv"
         group.to_csv(file_name, index=False)
 
 def summarize_count():
     global sentiment_csv
-    if classified_data is None:
+    if classified is None:
         print("Error: Dataset is not loaded.")
         return
 
@@ -46,7 +46,7 @@ def summarize_count():
 
 
 if __name__ == "__main__":
-    load_sentiment_csv()
+    load_sentiment()
     classify_sentiment()
-    save_to_csv()
+    save_csv()
     summarize_count()

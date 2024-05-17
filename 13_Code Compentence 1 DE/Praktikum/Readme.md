@@ -3,14 +3,15 @@
 1. Persiapan Lingkungan Pengembangan
    - Buat virtual environment dengan Python dan namai sebagai venv_code untuk mengisolasi proyek.
    - Download dataset ChatGPT Sentiment Analysis dari tautan ini kemudian simpan kedalam folder data_source, yang terdiri dari atribut tweets sebagai teks tweet dan label yang merupakan penanda sentimen (good,bad,neutral).
-  ![Screenshot 2024-04-06 045349](https://github.com/putridia/de_putri-dia-lestari/assets/120665019/bc021e43-944a-4c7a-acf0-415804b8ffbc)
+   
+   ![Screenshot 2024-04-06 045349](https://github.com/putridia/de_putri-dia-lestari/assets/120665019/bc021e43-944a-4c7a-acf0-415804b8ffbc)
 
 2. Persiapan dan Pemrosesan Dataset dengan OOP
    - Bangun class SentimentClassifier dalam Python didalam file sentiment_classifier.py yang memiliki metode untuk membaca dan memproses dataset.
      - Metode load_data() akan membaca dataset ke dalam struktur data yang sesuai.
      - Metode classify_sentiment() akan membagi tweets ke dalam kategori good, bad, atau neutral.
      - Metode save_to_csv() akan menyimpan tweets yang diklasifikasikan ke dalam file CSV terpisah: sentiment_good.csv, sentiment_bad.csv, dan sentiment_neutral.csv.
-   - Hitung dan simpan jumlah tweets untuk masing-masing kategori sentimen ke dalam file sentiment_counts.csv menggunakan metode summarize_counts().
+     - Hitung dan simpan jumlah tweets untuk masing-masing kategori sentimen ke dalam file sentiment_counts.csv menggunakan metode summarize_counts().
 
      ![Screenshot 2024-04-06 185308](https://github.com/putridia/de_putri-dia-lestari/assets/120665019/1cba71e0-8056-4f1b-af59-6c341e8d2078)
 

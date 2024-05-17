@@ -12,34 +12,50 @@ connection = connect(
 
 cursor = connection.cursor()
 
-def create_tables():
+def create_tables(self):
     try:
-        cursor.execute('CREATE TABLE sentiments (sentiment_id INT PRIMARY KEY, sentiment_label VARCHAR(10))')
-        cursor.execute('INSERT INTO sentiments (sentiment_id, sentiment_label) values (1,"neutral"), (2,"good"), (3,"bad")')
-        cursor.execute('CREATE TABLE tweets (id INT AUTO_INCREMENT PRIMARY KEY, text VARCHAR(100), sentiment_id INT, FOREIGN KEY(sentiment_id) REFERENCES sentiments(sentiment_id))')
+        cursor = self.connection.cursor()
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS sentiment_labels (
+                label_id INT PRIMARY KEY,
+                sentiment_label VARCHAR(10)
+            )
+        ''')
+        cursor.execute('''
+            CREATE TABLE IF NOT EXISTS tweet_data (
+                tweet_id INT AUTO_INCREMENT PRIMARY KEY,
+                tweet_text VARCHAR(100),
+                label_id INT,
+                FOREIGN KEY(label_id) REFERENCES sentiment_labels(label_id)
+            )
+        ''')
+        self.connection.commit()
+        cursor.close()
     except Exception as e:
         print(f"Error occurred during table creation: {e}")
 
-def insert_from_csv():
+def insert_csv(cursor, file_path):
     try:
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-        file_path = os.path.join(current_dir, 'data_source', 'file.csv')
-        sentiment_csv = pd.read_csv(file_path,  index_col=0)
+        sentiment_csv = pd.read_csv(file_path, index_col=0)
 
         for index, row in sentiment_csv.iterrows():
-            if row.iloc[1]=='neutral':
+            sentiment = row['sentiment'].lower()
+            if sentiment == 'neutral':
                 sentiment_id = 1
-            elif row.iloc[1]=='good':
+            elif sentiment == 'good':
                 sentiment_id = 2
-            elif row.iloc[1]=='bad':
+            elif sentiment == 'bad':
                 sentiment_id = 3
+            else:
+                print(f"Ignoring row {index}: Unknown sentiment '{sentiment}'.")
+                continue
             cursor.execute('INSERT INTO tweets (text, sentiment_id) VALUES (%s, %s)', (row['tweets'], sentiment_id))
     except Exception as e:
         print(f"Error occurred during CSV insertion: {e}")
 
 # Correct the password if necessary
 create_tables()
-insert_from_csv()
+insert_csv()
 
 connection.commit()
 connection.close()
